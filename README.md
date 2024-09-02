@@ -57,7 +57,7 @@ A prime example of asynchronous programming with AWS is processing and validatin
 
 In this scenario, you might need to validate these changes by triggering multiple Lambda functions in parallel, each responsible for checking a specific aspect of the configuration. Asynchronous programming allows you to invoke all these Lambda functions concurrently rather than waiting for each to complete sequentially. This parallel execution significantly reduces the total time required for validation and helps in quickly applying changes across your infrastructure. By leveraging AWS services like AWS Step Functions or AWS EventBridge for managing and orchestrating these asynchronous invocations, you can handle high concurrency efficiently and improve the overall responsiveness of your system.
 
-[https://docs.aws.amazon.com/lambda/latest/api/API\_Invoke.html](https://docs.aws.amazon.com/lambda/latest/api/API_Invoke.html
+https://docs.aws.amazon.com/lambda/latest/api/API\_Invoke.html](https://docs.aws.amazon.com/lambda/latest/api/API_Invoke.html
 
 https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/processing-events-asynchronously-with-amazon-api-gateway-and-amazon-dynamodb-streams.html
 
