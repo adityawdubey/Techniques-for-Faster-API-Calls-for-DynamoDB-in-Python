@@ -36,7 +36,8 @@ pip install boto3 aioboto3 asyncio
 
 ## Results
 
-![Image.png](https://res.craft.do/user/full/3aa63f74-732e-6a57-0633-5367c08afcb6/doc/3F1DDAE1-67C3-4A80-863F-A853244975C1/F3D6D30B-ABCF-4AA2-96CE-67BEBF511479_2/ArucDxa39aySeaPvydEnejEd27nkdUtDihOcavKMWLsz/Image.png align="left")
+<img width="675" alt="Screenshot 2024-08-30 at 10 14 54 PM" src="https://github.com/user-attachments/assets/27e2dded-74ae-4d17-9429-91eed94b5641">
+
 
 Based on the results, we can say that asynchronous approaches, like aioboto3 and asyncio with boto3, significantly outperform both synchronous and threading methods for I/O-bound tasks such as DynamoDB interactions. Threading offers some performance improvement over synchronous execution but may be less efficient than asynchronous methods due to thread management overhead. On the other hand, multiprocessing offers true parallelism and excels with CPU-bound tasks, but it doesn’t provide the same performance benefits for I/O-bound problems.
 
