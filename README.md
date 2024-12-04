@@ -2,7 +2,7 @@
 
 This project aims to explore different concurrency models and their impact on the performance of DynamoDB's put_item operation. The objective is to compare synchronous, threading, asynchronous (using asyncio and aioboto3), and multiprocessing approaches, highlighting their strengths and weaknesses for I/O-bound tasks like database interactions.
 
-Read full blog here: https://adityadubey.cloud/techniques-for-faster-api-calls-for-dynamodb-in-python
+Read full blog here: https://adityadubey.tech/techniques-for-faster-api-calls-for-dynamodb-in-python
 
 # Key Features
 
